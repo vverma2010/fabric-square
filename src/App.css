@@ -1,0 +1,185 @@
+* {
+	/* background:url('firstcry.png') ; */
+	/* width:100vw;
+  height: 100vh; */
+	margin: 0;
+	padding: 0;
+	/* filter: brightness(50%); */
+}
+.App {
+	text-align: center;
+	/* position: relative; */
+}
+
+.card {
+	width: 16%;
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 1rem !important;
+	box-shadow: 0 0 2px 1px rgba(128, 128, 128, 0.3) !important;
+}
+.card:hover {
+	box-shadow: 0 0 6px 2px rgba(128, 128, 128, 0.582) !important;
+}
+
+.typo {
+	text-align: left;
+}
+.text {
+	font-size: 16px !important;
+	font-weight: 800 !important;
+}
+.text-footer {
+	font-size: 13px !important;
+	color: grey;
+}
+/* .dialog{
+  min-width: 40vw !important;
+  max-width:69vw !important;
+} */
+.dialog-head {
+	display: inline-flex;
+	justify-content: space-between;
+}
+.dialog-heading {
+	display: inline-flex;
+	justify-content: left !important;
+}
+.head-form {
+	height: 2rem !important;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+	min-width: 40vw !important;
+	min-height: 75vh !important;
+}
+
+.css-ypiqx9-MuiDialogContent-root {
+	height: 3rem !important;
+	flex: none !important;
+	overflow-y: hidden !important;
+	margin-left: -2rem !important;
+	padding-bottom: 2rem !important;
+}
+.inputbase {
+	margin-top: 1rem !important;
+}
+.close-button {
+	position: absolute;
+	right: inherit;
+	top: 0;
+	color: grey;
+}
+.drop {
+	margin-right: 2rem !important;
+	margin-left: 2rem !important;
+	margin-top: 1rem !important;
+	margin-bottom: 3rem !important;
+}
+.drop-1 {
+	margin-right: 2rem !important;
+	margin-left: 2rem !important;
+	margin-top: 1rem !important;
+	margin-bottom: 2rem !important;
+}
+.select {
+	min-width: 240px;
+  margin-top:0.6rem !important;
+}
+.enter {
+	width: 50% !important;
+}
+.upload-button {
+	margin-top: 3rem !important;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+	margin-top: 1rem !important;
+	margin-left: 1rem !important;
+  padding-left: 1rem !important;
+}
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+  margin-top: 1rem !important;
+	margin-left: 1rem !important;
+}
+.attach {
+	width: 30% !important;
+	margin-top: 2rem !important;
+	margin-bottom: 4rem !important;
+}
+.naked-text {
+	float: right !important;
+	width: 20% !important;
+	margin-left: 60% !important;
+	margin-top: -5rem !important;
+}
+.css-1c32mdt-MuiPaper-root-MuiAlert-root{
+  padding:1rem !important;
+}
+.footer {
+	padding: 1rem;
+	display: flex;
+	justify-content: flex-end;  
+}
+.modal {
+	width: 50vw;
+	height: 70vh;
+	display: flex;
+	background: white !important;
+	filter: brightness(100%);
+	/* position: absolute; */
+	border-radius: 2rem;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 10%;
+	padding: 2rem;
+}
+/* .background{
+  background:url('firstcry.png') ;
+  width:100vw;
+  height: 100vh;
+  filter: brightness(50%);
+  position: absolute;
+} */
+
+/* .modal{
+  width: 50vw;
+  height:70vh;
+  display: flex;
+  background: white !important;
+  filter: brightness(100%);
+  position: absolute;
+  border-radius: 2rem;
+  top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+  margin-top: 10%;
+  padding: 2rem;
+}
+.top{
+  display: inline-flex;
+  justify-content: space-between;
+  height: 10px;
+  width: 100%;
+}
+.top span{
+  font-size: 1.5rem;
+  font-weight: 900;
+} */
+
+.main-body {
+	display: flex;
+}
+.left-sec {
+	float: left;
+	width: 30%;
+}
+
+.right-sec {
+	float: right;
+	width: 60%;
+}

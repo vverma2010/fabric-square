@@ -33,6 +33,26 @@
     width: 80%;
   }
 }
+@media screen and (min-width:481px) and (max-width:540px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 60%;
+  }
+}
+@media screen and (min-width:541px) and (max-width:1024px){
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 30%;
+  }
+}
 .card:hover {
 	box-shadow: 0 0 6px 2px rgba(128, 128, 128, 0.582) !important;
 }

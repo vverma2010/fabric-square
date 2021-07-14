@@ -148,11 +148,8 @@ function App() {
         </div>
       </div> */}
 			<div
-				style={{
-					display: 'flex',
-					justifyContent: 'center',
-					alignItems: 'center',
-				}}
+      className="container"
+				
 			>
 				{cards.map((card, i) => {
 					return (
@@ -222,12 +219,7 @@ function App() {
 						Material Details
 					</DialogTitle>
 					<MuiDialogContent className="head-form">
-						{/* <CardMedia
-            component="img"
-            alt="Fabrics"
-            height="340"
-            // image={card.img}
-          /> */}
+						
 						<ModalTitle> Assign to factory </ModalTitle>
 					</MuiDialogContent>
           <Alert className="alert"  severity="info" color="warning">You won't be able to change the details later!</Alert>
